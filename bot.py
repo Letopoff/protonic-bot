@@ -91,7 +91,7 @@ def bot_message(message):
             back = types.KeyboardButton('🔙Назад')
             markup.add(back)
             time.sleep(0.2)
-            bot.send_message(message.chat.id, 'Версия бота 1.0.0\n\nВерсия Python - 3.10.1 64 bit')
+            bot.send_message(message.chat.id, 'Версия бота 1.2.0\n\nВерсия Python - 3.10.1 64 bit')
 
         elif message.text == 'Функции':
             markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
