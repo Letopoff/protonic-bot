@@ -128,7 +128,7 @@ def bot_message(message):
             markup.add(itsecurity, web_prog, design, app_create, start_prog, back)
             bot.send_message(message.chat.id, 'Выберите интересующий вас раздел', reply_markup = markup)
 
-        elif message.text == '"Создание приложений"':
+        elif message.text == 'Создание приложений':
             markup = types.ReplyKeyboardMarkup(resize_keyboard = True)
             back = types.KeyboardButton('🔙Назад')
             markup.add(back)
